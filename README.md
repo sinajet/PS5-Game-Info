@@ -14,7 +14,7 @@
 1- Select Folder Icon on App, select game folder.<br>
 2- Copy Game Folder Path, Paste on empty field, Then Press ENTER<br>
 3- Open File menu on app, choose "Open Game Folder" Then select game folder<br>
-4- Go To Game folder (must in eboot.bin path), Right Click on a file (like eboot.bin or eboot.bin.esbak or contentids.json) select "Open with",then Open the File with PS5 Game Info<br>
+4- Go To Game folder (must in eboot.bin path), Right Click on a file (like eboot.bin or eboot.bin.esbak or contentids.json) select "Open with", then Open the File with PS5 Game Info<br>
 <h2>Note 3: If you choose the 4th, Dont remove or move exe File</h2>
 <h2>Downlaod EXE files From <a href="https://github.com/sinajet/PS5-Game-Info/releases/">here</a></h2>
 <h3>You can use my codes everywhere But don't forget to mention me ;)</h3>
