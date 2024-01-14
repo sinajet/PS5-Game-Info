@@ -19,6 +19,7 @@
 <h2>Downlaod EXE files From <a href="https://github.com/sinajet/PS5-Game-Info/releases/">(here)</a></h2>
 <h3>You can use my codes everywhere But dont forget to mention me;)</h3>
 <h3>Also, If you don't trust my exe file, you have my codes. Get your exe output</h3>
+<h3>This App Made By Qt Designer And PYQT6</h3>
 <h2>References</h2>
 <a href="https://www.psxhax.com/threads/ps4pkgviewer-a-ps4-pkg-viewer-by-lman-theleecherman.4784/">PS4 PKG Viewer By LMAN</a><br>
 <a href="https://www.psdevwiki.com/ps5/Param.json">Param.json page on psdevwiki</a><br>
