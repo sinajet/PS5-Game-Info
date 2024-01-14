@@ -1,5 +1,5 @@
 # PS5-Game-Info
-<img src="https://s6.uupload.ir/files/screenshot_of_app_rff1.png"> <br><br>
+<img src="[https://s6.uupload.ir/files/screenshot_of_app_rff1.png](https://github.com/sinajet/PS5-Game-Info/blob/main/Screenshot%202024-01-14%20205102.png)"> <br><br>
 <h1>ENGLISH Description</h1><br>
 <h2>This program Translate Your Texts and converts Persian-Arabic language separately and Reversed </h2><br>
 
