@@ -319,7 +319,7 @@ class Ui_PS5_Game_Info(object):
 
     def retranslateUi(self, PS5_Game_Info):
         _translate = QtCore.QCoreApplication.translate
-        PS5_Game_Info.setWindowTitle(_translate("PS5_Game_Info", "PS5 Game Info"))
+        PS5_Game_Info.setWindowTitle(_translate("PS5_Game_Info", "PS5 Game Info - V0.90B"))
         self.lbl_game_info.setText(_translate("PS5_Game_Info",NO_SLCT))
         self.lbl_game_title.setText(_translate("PS5_Game_Info", "Select Game Folder First!"))
         self.lblSinajet.setText(_translate("Linksaz", "By Sinajet"))
