@@ -1,5 +1,3 @@
-# Form implementation generated from reading ui file 'D:\mypro\PS5 Game Info Viewer\PS5_Game_Info.ui'
-#
 # Created by: PyQt6 UI code generator 6.6.1
 #
 # WARNING: Any manual changes made to this file will be lost when pyuic6 is
@@ -174,7 +172,7 @@ class Ui_PS5_Game_Info(object):
         self.lbl_icon0.setGeometry(QtCore.QRect(28, 24, 256, 256))
         self.lbl_icon0.setFrameShape(QtWidgets.QFrame.Shape.Box)
         self.lbl_icon0.setFrameShadow(QtWidgets.QFrame.Shadow.Raised)
-        self.lbl_icon0.setPixmap(QtGui.QPixmap(os.path.join(basedir,'Nothing.png')))
+        self.lbl_icon0.setPixmap(QtGui.QPixmap(os.path.join('images/Nothing.png')))
         self.lbl_icon0.setScaledContents(True)
         self.lbl_icon0.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
         self.lbl_icon0.setObjectName("lbl_icon0")
@@ -188,7 +186,7 @@ class Ui_PS5_Game_Info(object):
         self.btn_game_path.setGeometry(QtCore.QRect(280, 330, 21, 21))
         self.btn_game_path.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("D:\\mypro\\PS5 Game Info Viewer\\Folder_icon.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon.addPixmap(QtGui.QPixmap("images/Folder_icon.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.btn_game_path.setIcon(icon)
         self.btn_game_path.setObjectName("btn_game_path")
         self.btn_game_path.clicked.connect(self.Game_location)
@@ -264,19 +262,19 @@ class Ui_PS5_Game_Info(object):
         self.actGithub = QtGui.QAction(PS5_Game_Info)
         self.actGithub.setObjectName("actGithub")
         iconGithub=QtGui.QIcon()
-        iconGithub.addPixmap(QtGui.QPixmap(os.path.join(basedir,'GitHubLogo.png')),QtGui.QIcon().Mode.Normal)
+        iconGithub.addPixmap(QtGui.QPixmap(os.path.join('images/GitHub_logo.png')),QtGui.QIcon().Mode.Normal)
         self.actGithub.setIcon(iconGithub)
 #==========================================================================================actTelegram
         self.actTelegram = QtGui.QAction(PS5_Game_Info)
         self.actTelegram.setObjectName("actTelegram")
         iconTelegram=QtGui.QIcon()
-        iconTelegram.addPixmap(QtGui.QPixmap(os.path.join(basedir,'Telegramlogo.png')),QtGui.QIcon().Mode.Normal)
+        iconTelegram.addPixmap(QtGui.QPixmap(os.path.join('images/Telegram_logo.png')),QtGui.QIcon().Mode.Normal)
         self.actTelegram.setIcon(iconTelegram)
 #==========================================================================================actYoutube
         self.actYoutube = QtGui.QAction(PS5_Game_Info)
         self.actYoutube.setObjectName("actYoutube")
         iconYoutube=QtGui.QIcon()
-        iconYoutube.addPixmap(QtGui.QPixmap(os.path.join(basedir,'YouTubelogo.png')),QtGui.QIcon().Mode.Normal)
+        iconYoutube.addPixmap(QtGui.QPixmap(os.path.join('images/YT_logo.png')),QtGui.QIcon().Mode.Normal)
         self.actYoutube.setIcon(iconYoutube)
 #==========================================================================================acOpen
         self.acOpen = QtGui.QAction(PS5_Game_Info)
@@ -284,14 +282,14 @@ class Ui_PS5_Game_Info(object):
         self.acOpen.setObjectName("acOpen")
         self.acOpen.setShortcut("Ctrl+F")
         iconOpen=QtGui.QIcon()
-        iconOpen.addPixmap(QtGui.QPixmap(os.path.join(basedir,'Folder_icon.png')),QtGui.QIcon().Mode.Normal)
+        iconOpen.addPixmap(QtGui.QPixmap(os.path.join('images/Folder_icon.png')),QtGui.QIcon().Mode.Normal)
         self.acOpen.setIcon(iconOpen)
 #==========================================================================================acClear
         self.acClear = QtGui.QAction(PS5_Game_Info)
         self.acClear.setObjectName("acClear")
         self.acClear.setShortcut("Ctrl+D")
         acClear=QtGui.QIcon()
-        acClear.addPixmap(QtGui.QPixmap(os.path.join(basedir,'ClearIcon.png')),QtGui.QIcon().Mode.Normal)
+        acClear.addPixmap(QtGui.QPixmap(os.path.join('images/Clear_icon.png')),QtGui.QIcon().Mode.Normal)
         self.acClear.setIcon(acClear)
 #============================================================================menubar
         PS5_Game_Info.setCentralWidget(self.centralwidget)
@@ -378,7 +376,7 @@ class Ui_PS5_Game_Info(object):
                 self.lbl_game_info.setText(NO_SLCT)
                 self.lbl_game_title.setText("Cant Find eboot File-Please Select Correct Path")
                 self.tw_param.clearContents()
-                self.lbl_icon0.setPixmap(QtGui.QPixmap(os.path.join(basedir,'Nothing.png')))
+                self.lbl_icon0.setPixmap(QtGui.QPixmap(os.path.join('images/Nothing.png')))
 #=======================================================================dMnuFiles
     def dMnuFiles(self,q):
         global gPath,gVer,region,gname,sVer,Fcheck,Fsize
@@ -388,7 +386,7 @@ class Ui_PS5_Game_Info(object):
                 self.tw_param.clearContents()
                 self.lbl_game_info.setText(NO_SLCT)
                 self.lbl_game_title.setText("Select Game Folder First!")
-                self.lbl_icon0.setPixmap(QtGui.QPixmap(os.path.join(basedir,'Nothing.png')))
+                self.lbl_icon0.setPixmap(QtGui.QPixmap(os.path.join('images/Nothing.png')))
                 self.le_game_path.clear()
                 gPath=''
                 gVer=''
@@ -412,11 +410,11 @@ if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
     PS5_Game_Info = QtWidgets.QMainWindow()
-    app.setWindowIcon(QtGui.QIcon(os.path.join(basedir,'Icon_ps5_info.ico')))
+    app.setWindowIcon(QtGui.QIcon(os.path.join('Icon_ps5_info.ico')))
     ui = Ui_PS5_Game_Info()
     ui.setupUi(PS5_Game_Info)
     if len(sys.argv)>1:
-            gPath=sys.argv[1].replace('\\'+os.path.basename(sys.argv[1]),'').replace('\\','/')
+            gPath=sys.argv[1].replace('\\'+os.path.basedir(sys.argv[1]),'').replace('\\','/')
             ui.main_procress()
     PS5_Game_Info.show()
     sys.exit(app.exec())
