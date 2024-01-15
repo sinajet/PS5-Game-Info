@@ -3,7 +3,7 @@
 
 <h1>ENGLISH Description</h1>
 
-### - [ترجمه فارسی](README_fa.md)
+### [ترجمه فارسی](README_fa.md)
 
 <h2>This program can show you the info of dumped PS5 games</h2>
 <h2>Features</h2>
