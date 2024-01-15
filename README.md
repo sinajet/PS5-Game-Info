@@ -1,12 +1,12 @@
 # PS5-Game-Info
-<img src="https://github.com/sinajet/PS5-Game-Info/blob/main/Screenshot%202024-01-14%20205102.png"> <br>
+<img src="images/Screenshot 2024-01-14 205102.png"> <br>
 <h1>ENGLISH Description</h1>
 <h2>This program can show you the info of dumped PS5 games</h2>
 <h2>Features</h2>
 - Read param.json File and display it on table (maybe **NOT ALL** Games, It's must be tested)<br>
 - Detect whether the eboot.bin is fake or not (It just check the eboot.bin file not others)<br>
 - Get the size of the game folder (Its HARD TO READ From Properties)<br>
-<h2>Note 1: It can't show you the PKG files. Neither PS4/5 PKG, Only dump filee oF PS5 games (not ps4)</h2>
+<h2>Note 1: It can't show you the PKG files. Neither PS4/5 PKG, Only dump file of PS5 games (not ps4)</h2>
 <h2>Note 2: THIS APP IS ON TEST So if find Any Bugs, mention me on <a href="https://x.com/sinajet1">X(Twitter)</a></h2>
 <h1>Usage:</h1>
 <h3>You Must Select the Game Folder Path, The path of the game folder is actually the path where you see the eboot.bin file</h3>
