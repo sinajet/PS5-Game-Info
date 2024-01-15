@@ -1,6 +1,9 @@
 # PS5-Game-Info
 <img src="images/Screenshot 2024-01-14 205102.png"> <br>
 <h1>ENGLISH Description</h1>
+
+## [ترجمه فارسی](README_fa.md)
+
 <h2>This program can show you the info of dumped PS5 games</h2>
 <h2>Features</h2>
 - Read param.json File and display it on table (maybe **NOT ALL** Games, It's must be tested)<br>
