@@ -410,7 +410,7 @@ if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
     PS5_Game_Info = QtWidgets.QMainWindow()
-    app.setWindowIcon(QtGui.QIcon(os.path.join('images/Icon_ps5_info.ico')))
+    app.setWindowIcon(QtGui.QIcon(os.path.join('Icon_ps5_info.ico')))
     ui = Ui_PS5_Game_Info()
     ui.setupUi(PS5_Game_Info)
     if len(sys.argv)>1:
