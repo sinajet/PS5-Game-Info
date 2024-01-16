@@ -30,3 +30,6 @@
 ## منابع
 <a href="https://www.psxhax.com/threads/ps4pkgviewer-a-ps4-pkg-viewer-by-lman-theleecherman.4784/">PS4 PKG Viewer By LMAN</a><br>
 <a href="https://www.psdevwiki.com/ps5/Param.json">Param.json page on psdevwiki</a><br>
+<h2با تشکر از :</h2>
+<a href="https://github.com/AmizRm"> For Fix Showing Folder Icon Bug,and sort the image files</a><br>
+<a href="https://twitter.com/BedroZen"> For Sending Param.json Files to me for Testing, now Im sure app works on many games</a><br>
