@@ -11,7 +11,7 @@
 - Detect whether the eboot.bin is fake or not (It just check the eboot.bin file not others)<br>
 - Get the size of the game folder (Its HARD TO READ From Properties)<br>
 <h2>Note 1: It can't show you the PKG files. Neither PS4/5 PKG, Only dump file of PS5 games (not ps4)</h2>
-<h2>Note 2: THIS APP IS ON TEST So if find Any Bugs, mention me on <a href="https://x.com/sinajet1">X(Twitter)</a></h2>
+<h2>Note 2: THIS APP IS ON TEST So if find Any Bugs, mention me on <a href="https://x.com/sinajet1">X (Twitter)</a></h2>
 <h1>Usage:</h1>
 <h3>You Must Select the Game Folder Path, The path of the game folder is actually the path where you see the eboot.bin file</h3>
 <h3>You have four ways to choose the game folder path:</h3>
@@ -28,5 +28,5 @@
 <a href="https://www.psxhax.com/threads/ps4pkgviewer-a-ps4-pkg-viewer-by-lman-theleecherman.4784/">PS4 PKG Viewer By LMAN</a><br>
 <a href="https://www.psdevwiki.com/ps5/Param.json">Param.json page on psdevwiki</a><br>
 <h2>Thanks To:</h2>
-<a href="https://github.com/AmizRm"> For Fix Showing Folder Icon Bug,and sort the image files</a><br>
+<a href="https://github.com/AmizRm"> For Fix Showing Folder Icon Bug, and sort the image files</a><br>
 <a href="https://twitter.com/BedroZen"> For Sending Param.json Files to me for Testing, now Im sure app works on many games</a><br>

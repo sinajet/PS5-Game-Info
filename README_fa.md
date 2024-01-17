@@ -7,12 +7,12 @@
 
 ## امکانات
 
-- خواندن فایل param.json و نشان دادن آن (شاید **نه همه** بازی ها, باید تست شود)
-- فقط چک میکنه فایل eboot.bin فیک هست یا نه(کل فایل های تغییر داده شده رو چک نمیکنه)
-- سایز و حجم فولدر بازی رو هم براتون میگیره(چک کردن پراپرتیز ویندوز ممکنه سخت باشه ولی با اپ راحت تره)
+- خوندن فایل param.json و نشون دادن اون (شاید **نه همه** بازی ها, باید تست شه)
+- فقط چک میکنه فایل eboot.bin فیک هست یا نه (کل فایل های تغییر داده شده رو چک نمیکنه)
+- سایز و حجم فولدر بازی رو هم براتون میگیره (چک کردن پراپرتیز ویندوز ممکنه سخت باشه ولی با اپ راحت تره)
 
-## نکته ۱: این برنامه نمیتونه اطلاعات فایل پکیج رو بگیره، چه کنسول PS4 چه کنسول PS5، همینطور اگه فایل پکیج PS4 رو باؤ کنید کار نمیکنه! فقط و فقط فایل باز شده ئ دامپ گرفته شده PS5 رو ميشناسه
-## نکته ۲: این برنامه در مرحله تست هستش پس اگه مشکلی پیدا کردین، من رو در  <a href="https://x.com/sinajet1"اکس(توییتر)</a> تگ کنید.
+## نکته ۱: این برنامه نمیتونه اطلاعات فایل پکیج رو بگیره، چه کنسول PS4 چه کنسول PS5، همینطور اگه فایل پکیج PS4 رو باز کنید کار نمیکنه! فقط و فقط فایل باز شده دامپ گرفته شده PS5 رو ميشناسه
+## نکته ۲: این برنامه در مرحله تست هستش پس اگه مشکلی پیدا کردین، من رو در [اکس (توییتر)](https://x.com/sinajet1) تگ کنید.
 
 # نحوه استفاده:
 ### شما باید مسیر پوشه بازیتون رو انتخاب کنین, مسیر پوشه بازیتون در واقع همون مسیری هست که فایل eboot.bin درونش قرار داره
@@ -30,6 +30,6 @@
 ## منابع
 <a href="https://www.psxhax.com/threads/ps4pkgviewer-a-ps4-pkg-viewer-by-lman-theleecherman.4784/">PS4 PKG Viewer By LMAN</a><br>
 <a href="https://www.psdevwiki.com/ps5/Param.json">Param.json page on psdevwiki</a><br>
-<h2با تشکر از :</h2><br>
-<a href="https://github.com/AmizRm"> For Fix Showing Folder Icon Bug,and sort the image files</a><br>
+<h2>با تشکر از :</h2><br>
+<a href="https://github.com/AmizRm"> For Fix Showing Folder Icon Bug, and sort the image files</a><br>
 <a href="https://twitter.com/BedroZen"> For Sending Param.json Files to me for Testing, now Im sure app works on many games</a><br>
