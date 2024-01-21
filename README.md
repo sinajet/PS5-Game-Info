@@ -10,7 +10,7 @@
 - Read param.json File and display it on table (maybe **NOT ALL** Games, It's must be tested)<br>
 - Detect whether the eboot.bin is fake or not (It just check the eboot.bin file not others)<br>
 - Get the size of the game folder (Its HARD TO READ From Properties)<br>
-<h2>Note 1: It can't show you the PKG files. Neither PS4/5 PKG, Only dump file of PS5 games (not ps4)</h2>
+<h2>Note 1: It can't show you the PKG files. Neither PS4/5 PKG, Only dump Folder of PS5 games (not ps4)</h2>
 <h2>Note 2: THIS APP IS ON TEST So if find Any Bugs, mention me on <a href="https://x.com/sinajet1">X (Twitter)</a></h2>
 <h1>Usage:</h1>
 <h3>You Must Select the Game Folder Path, The path of the game folder is actually the path where you see the eboot.bin file</h3>
