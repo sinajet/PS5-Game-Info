@@ -8,6 +8,7 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 import json, os
 from pathlib import Path
 import webbrowser
+import time
 #++++++++++GlobalVariables++++++++++
 gPath=''
 gVer=''
@@ -17,10 +18,33 @@ sVer=''
 Fcheck=''
 Fsize=''
 NO_SLCT="NO CONTENT SELECTED"
-game_info_lbl="<html><head/><body><p align=\"center\">Game {Fcheck} ({region}) - {gVer} - RSSV: v{sVer} - {Fsize}</p></body></html>"
+game_info_lbl="<html><head/><body><p align=\"center\">Game {Fcheck} ({region}) - {gVer} - RSSV: v{sVer} - Cal...</p></body></html>"
 game_title_lbl="<html><head/><body><p align=\"center\">{gname}</p></body></html>"
 basedir = os.path.dirname(__file__)
+
 #++++++++++Defs++++++++++
+def convert_bytes(size):
+        for x in ['bytes','KB','MB','GB','TB']:
+                if size < 1024.0:
+                        return'%3.1f%s'%(size,x)
+                size/=1024.0
+        return size
+
+def folder_size(path='.'):
+        text=ui.lbl_game_info.text()
+        QtWidgets.QApplication.processEvents()
+        total_size = 0
+        x=50000000
+        path = Path(path)
+        for item in path.glob('**/*'):
+                QtWidgets.QApplication.processEvents()
+                if item.is_file():
+                        total_size += item.stat().st_size
+                if total_size>x:
+                        ui.lbl_game_info.setText(text.replace("Cal...",convert_bytes(total_size)))
+                        x+=50000000
+        ui.lbl_game_info.setText(text.replace("Cal...",convert_bytes(total_size)))
+
 def region_convertor(R):
         if R == "UP":
                 return "US"
@@ -31,13 +55,6 @@ def region_convertor(R):
 
 def version_corrector(v):
         return v[:2]+"."+v[2:4]+"."+v[4:6]+"."+v[6:8]
-
-def convert_bytes(size):
-        for x in ['bytes','KB','MB','GB','TB']:
-                if size < 1024.0:
-                        return'%3.1f%s'%(size,x)
-                size/=1024.0
-        return size
 
 def Param_Table_Inputer():
         global gVer,region,gname,sVer
@@ -317,7 +334,7 @@ class Ui_PS5_Game_Info(object):
 
     def retranslateUi(self, PS5_Game_Info):
         _translate = QtCore.QCoreApplication.translate
-        PS5_Game_Info.setWindowTitle(_translate("PS5_Game_Info", "PS5 Game Info - V0.90B"))
+        PS5_Game_Info.setWindowTitle(_translate("PS5_Game_Info", "PS5 Game Info - V0.94B"))
         self.lbl_game_info.setText(_translate("PS5_Game_Info",NO_SLCT))
         self.lbl_game_title.setText(_translate("PS5_Game_Info", "Select Game Folder First!"))
         self.lblSinajet.setText(_translate("Linksaz", "By Sinajet"))
@@ -368,10 +385,9 @@ class Ui_PS5_Game_Info(object):
                 Fcheck=self.eboot_fake_checker()
                 if os.path.exists(gPath+"/sce_sys/param.json"):
                         Param_Table_Inputer()
-                root_directory = Path(gPath)
-                Fsize=convert_bytes(sum(f.stat().st_size for f in root_directory.glob('**/*') if f.is_file()))
-                self.lbl_game_info.setText(game_info_lbl.format(region=region,gVer=gVer,sVer=sVer,Fcheck=Fcheck,Fsize=Fsize))
+                self.lbl_game_info.setText(game_info_lbl.format(region=region,gVer=gVer,sVer=sVer,Fcheck=Fcheck))
                 self.lbl_game_title.setText(game_title_lbl.format(gname=gname))
+                folder_size(Path(gPath))
         else:
                 self.lbl_game_info.setText(NO_SLCT)
                 self.lbl_game_title.setText("Cant Find eboot File-Please Select Correct Path")
@@ -414,7 +430,7 @@ if __name__ == "__main__":
     ui = Ui_PS5_Game_Info()
     ui.setupUi(PS5_Game_Info)
     if len(sys.argv)>1:
-            gPath=sys.argv[1].replace('\\'+os.path.basedir(sys.argv[1]),'').replace('\\','/')
+            gPath=sys.argv[1].replace('\\'+os.path.basename(sys.argv[1]),'').replace('\\','/')
             ui.main_procress()
     PS5_Game_Info.show()
     sys.exit(app.exec())
