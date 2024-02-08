@@ -41,3 +41,24 @@ To generate a Python output file run `pyuic6` from the command line, passing the
 ```
 pyuic6 PS5_Game_Info.ui -o PS5_Game_Info.py
 ```
+
+
+### Build the Excutable File (for Windows)
+
+Install `PyInstaller` if it's not already installed
+
+```
+$ pip install PyInstaller
+```
+
+Then you can build the app using the following command:
+
+```
+pyinstaller PS5_Game_Info.py
+```
+
+The executable file will be located in `dist/PS5_Game_Info/PS5_Game_Info.exe`
+
+## Useful Resources
+* [Qt Designer and Python: Build Your GUI Applications Faster](https://realpython.com/qt-designer-python/)
+* [Packaging PyQt6 applications for Windows with PyInstaller & InstallForge](https://www.pythonguis.com/tutorials/packaging-pyqt6-applications-windows-pyinstaller/)

@@ -1,10 +1,16 @@
+altgraph==0.17.4
 click==8.1.7
 colorama==0.4.6
+packaging==23.2
+pefile==2023.2.7
+pyinstaller==6.3.0
+pyinstaller-hooks-contrib==2024.0
 PyQt6==6.4.2
 pyqt6-plugins==6.4.2.2.3
 PyQt6-Qt6==6.4.3
 PyQt6-sip==13.6.0
 pyqt6-tools==6.4.2.3.3
 python-dotenv==1.0.1
+pywin32-ctypes==0.2.2
 qt6-applications==6.4.3.2.3
 qt6-tools==6.4.3.1.3
