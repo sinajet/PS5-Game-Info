@@ -29,5 +29,5 @@
 <a href="https://www.psdevwiki.com/ps5/Param.json">Param.json page on psdevwiki</a><br>
 <h2>Thanks To:</h2>
 <a href="https://github.com/AmizRm">AmizRm</a>, For Fix Showing Folder Icon Bug, and sort the image files<br>
-<a href="https://github.com/bilalix">Bilalix</a>, For Writing Readme Files For Developers, ignorme file and <br>
+<a href="https://github.com/bilalix">Bilalix</a>, For Writing Readme Files For Developers, ignorme file, requirements file for module and everything You need for Running App on Python or getting a exe File for Windows<br>
 <a href="https://twitter.com/BedroZen">BedroZen</a>, For Sending Param.json Files to me for Testing, now Im sure app works on many games<br>
