@@ -11,7 +11,7 @@
 - فقط چک میکنه فایل eboot.bin فیک هست یا نه (کل فایل های تغییر داده شده رو چک نمیکنه)
 - سایز و حجم فولدر بازی رو هم براتون میگیره (چک کردن پراپرتیز ویندوز ممکنه سخت باشه ولی با اپ راحت تره)
 
-## نکته ۱: این برنامه نمیتونه اطلاعات فایل پکیج رو بگیره، چه کنسول PS4 چه کنسول PS5، همینطور اگه فایل پکیج PS4 رو باز کنید کار نمیکنه! فقط و فقط فایل باز شده دامپ گرفته شده PS5 رو ميشناسه
+## نکته ۱: این برنامه نمیتونه اطلاعات فایل پکیج رو بگیره، چه کنسول PS4 چه کنسول PS5، همینطور اگه فایل پکیج PS4 رو باز کنید کار نمیکنه! فقط و فقط پوشه بازی دامپ گرفته شده PS5 رو ميشناسه
 ## نکته ۲: این برنامه در مرحله تست هستش پس اگه مشکلی پیدا کردین، من رو در [اکس (توییتر)](https://x.com/sinajet1) تگ کنید.
 
 # نحوه استفاده:
@@ -32,4 +32,5 @@
 <a href="https://www.psdevwiki.com/ps5/Param.json">Param.json page on psdevwiki</a><br>
 <h2>با تشکر از :</h2><br>
 <a href="https://github.com/AmizRm">AmizRm</a>, For Fix Showing Folder Icon Bug, and sort the image files<br>
+<a href="https://github.com/bilalix">Bilalix</a>, For Writing Readme Files For Developers, ignorme file, requirements file for module and everything You need for Running App on Python or getting a exe File for Windows<br>
 <a href="https://twitter.com/BedroZen">BedroZen</a>, For Sending Param.json Files to me for Testing, now Im sure app works on many games<br>
